@@ -1,0 +1,223 @@
+{
+  "events": [
+    {
+      "title": "Halåååå",
+      "desc": "NU KÖR VIIII",
+      "timeLeft": "2022-05-18T13:11:00.000Z",
+      "userId": "2",
+      "id": 1
+    },
+    {
+      "title": "Ok, vi testar igen",
+      "desc": "vadååååårååå",
+      "timeLeft": "2022-05-18T13:15:00.000Z",
+      "userId": "3",
+      "id": 2
+    },
+    {
+      "title": "",
+      "desc": "",
+      "timeLeft": "2022-05-18T13:45:00.000Z",
+      "userId": "2",
+      "id": 3
+    },
+    {
+      "title": "Event tracker",
+      "desc": "Validera fälten behöver göras klart samt info om vad som har gått snett",
+      "timeLeft": "2022-05-18T14:46:00.000Z",
+      "userId": "2",
+      "id": 4
+    },
+    {
+      "title": "",
+      "desc": "asdasd",
+      "timeLeft": "2022-05-19T07:55:00.000Z",
+      "userId": "2",
+      "id": 5
+    },
+    {
+      "title": "",
+      "desc": "asdasd",
+      "timeLeft": "2022-05-19T07:55:00.000Z",
+      "userId": "2",
+      "id": 6
+    },
+    {
+      "title": "Nu testar vi föööö faaaan",
+      "desc": "KÖR BARA KÖÖÖÖÖR",
+      "timeLeft": "2022-05-19T08:33:00.000Z",
+      "userId": "2",
+      "id": 7
+    },
+    {
+      "title": "Nu testar vi föööö faaaan123123213",
+      "desc": "KÖR BARA KÖÖÖÖÖRasdasd",
+      "timeLeft": "2022-05-19T08:44:00.000Z",
+      "userId": "2",
+      "id": 8
+    },
+    {
+      "title": "Nu testar vi föööö faaaan123123213asdasdasd",
+      "desc": "KÖR BARA KÖÖÖÖÖRasdasdasdasdasd",
+      "timeLeft": "2022-05-19T08:15:00.000Z",
+      "userId": "2",
+      "id": 9
+    },
+    {
+      "title": "asdasd",
+      "desc": "asdasdas",
+      "timeLeft": "2022-05-19T08:44:00.000Z",
+      "userId": "3",
+      "id": 10
+    },
+    {
+      "title": "asdasd",
+      "desc": "asdasdas",
+      "timeLeft": null,
+      "userId": "3",
+      "id": 11
+    },
+    {
+      "title": "asdasd",
+      "desc": "asdasdas",
+      "timeLeft": null,
+      "userId": "3",
+      "id": 12
+    },
+    {
+      "title": "asdasd",
+      "desc": "asdasdas",
+      "timeLeft": "2022-05-26T22:00:00.000Z",
+      "userId": "3",
+      "id": 13
+    },
+    {
+      "title": "Asdasd",
+      "desc": "Asdasdas",
+      "timeLeft": "2022-05-24T16:16",
+      "userId": "2",
+      "id": 14
+    },
+    {
+      "title": "asdasd",
+      "desc": "asdasd",
+      "timeLeft": "2022-05-24T17:17",
+      "userId": "2",
+      "id": 15
+    },
+    {
+      "title": "asdasd",
+      "desc": "asdasd",
+      "timeLeft": "2022-05-24T12:17",
+      "userId": "2",
+      "id": 16
+    },
+    {
+      "title": "Asdasd",
+      "desc": "Asdasd",
+      "timeLeft": "2022-05-25T14:34",
+      "userId": "7",
+      "id": 17
+    },
+    {
+      "title": "Asdasd",
+      "desc": "Asdasd",
+      "timeLeft": "2022-05-25T14:34",
+      "userId": "7",
+      "id": 18
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "emil@mail.com",
+      "password": "BytMig123"
+    },
+    {
+      "email": "lind.emil__90@hotmail.com",
+      "password": "$2a$10$cAZWdSDu3p3JJqCSRQZFPu./bWuIcliUbwB.pA3haihU2OwScQg4y",
+      "firstName": "Emil",
+      "lastName": "Lind",
+      "rptPw": "BytMig123",
+      "id": 2
+    },
+    {
+      "email": "lind.emil_90@hotmail.com",
+      "password": "$2a$10$BFF/sARrefxmScUZXN.RoO43GNz97V0EnE2kUXsm0VJBDJF20jmcW",
+      "firstName": "Emil",
+      "lastName": "Lind",
+      "rptPw": "BytMig123",
+      "id": 3
+    },
+    {
+      "email": "emil__90@hotmail.com",
+      "password": "$2a$10$cQSdug7sBkNQxfc.0BdPsef66XwEhudrBxCwr3yghINS.8qCIqTGK",
+      "firstName": "Emil",
+      "lastName": "Lind",
+      "rptPw": "BytMig123",
+      "id": 4
+    },
+    {
+      "email": "emil23__90@hotmail.com",
+      "password": "$2a$10$NDo9DMOK/JTcnnQmiu2fsen96JkII1GiG2Tf2jcF04YHu3t.ChqGO",
+      "firstName": "Emil",
+      "lastName": "Lind",
+      "rptPw": "BytMig123",
+      "id": 5
+    },
+    {
+      "email": "emilsad23__90@hotmail.com",
+      "password": "$2a$10$lHBrPEJuH3zUXgT3ncpQnurhvCNumlXJSEccsDdEv5M8myI3Jbva2",
+      "firstName": "Emil",
+      "lastName": "Lind",
+      "rptPw": "BytMig123",
+      "id": 6
+    },
+    {
+      "email": "lind.emil__90@hotmail.co",
+      "password": "$2a$10$OFxlWjoCXcFe.rEfNEYrpe/UZBHyK7c7uuLyy393ZzCWyijdNb2Vi",
+      "firstName": "asdasd",
+      "lastName": "asdasd",
+      "rptPw": "asdasd",
+      "id": 7
+    }
+  ],
+  "finished": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    }
+  ]
+}

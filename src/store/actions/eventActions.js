@@ -12,7 +12,7 @@ export const getEvents = (token) => {
       type: actiontypes().events.setEvents
     })
     try {
-      const res = await axios.get('http://localhost:8080/600/events/', {
+      const res = await axios.get('http://localhost:8080/events/', {
         headers: {
           'Authorization': `Bearer ${token}`
         }

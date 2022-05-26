@@ -25,6 +25,7 @@ const Navbar = () => {
     }
   }
 
+  console.log(events)
   useEffect(() => {
     if(events) {
       let myEvents = events.filter(event => event.userId === jwt_decode(isAuth).sub)

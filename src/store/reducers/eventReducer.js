@@ -21,12 +21,14 @@ const eventReducer = (state = initState, action) => {
       }
 
     case actiontypes().events.setEventsSuccess:
+      console.log(action.payload)
       return {
         ...state,
         loading: false,
         error: null,
-        events: action.payload
+        events: action.payload,
       }
+      
 
     case actiontypes().events.setEventsFailure:
       return {
@@ -50,6 +52,7 @@ const eventReducer = (state = initState, action) => {
       }
 
     case actiontypes().events.addEventSuccess:
+      console.log(state.events)
       return {
         ...state,
         loading: false,
@@ -75,8 +78,7 @@ const eventReducer = (state = initState, action) => {
       return state
   }
 
-
-
+  
 }
 
 

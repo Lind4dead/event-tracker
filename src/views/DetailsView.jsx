@@ -27,7 +27,7 @@ const DetailsView = () => {
       <div className={`card w-50 p-3 ${ Date.parse(event.timeLeft) < Date.now() ? 'finished-event' : 'pending-event'}`}>
             <div>
               <h2>{event.title}</h2>
-              <p className='h5'>{event.desc}</p>
+              <p className=''>{event.desc}</p>
               <small>{moment(event.timeLeft).fromNow()}</small>
             </div>
           

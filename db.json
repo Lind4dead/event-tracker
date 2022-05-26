@@ -195,6 +195,27 @@
       "timeLeft": "2022-05-26T11:58",
       "userId": "10",
       "id": 28
+    },
+    {
+      "title": "Åka till Västerås med tåg",
+      "desc": "Yaaaaay 09:59 imorgon!",
+      "timeLeft": "2022-05-27T09:59",
+      "userId": "11",
+      "id": 29
+    },
+    {
+      "title": "Åka till Västerås med tåg",
+      "desc": "Yaaaaay 09:59 imorgon!",
+      "timeLeft": "2022-05-27T09:59",
+      "userId": "11",
+      "id": 30
+    },
+    {
+      "title": "Åka till Västerås med tåg",
+      "desc": "Yaaaaay 09:59 imorgon!",
+      "timeLeft": "2022-05-27T09:59",
+      "userId": "11",
+      "id": 31
     }
   ],
   "users": [
@@ -274,6 +295,14 @@
       "lastName": "Lind",
       "rptPw": "BytMig123",
       "id": 10
+    },
+    {
+      "email": "lind@hotmail.com",
+      "password": "$2a$10$CqFe1hhWAG9dYE31XEtbHeYUTyTiD.rlyXO3CTVxBnzyOSiyN1h9O",
+      "firstName": "Emil",
+      "lastName": "Lind",
+      "rptPw": "BytMig123",
+      "id": 11
     }
   ],
   "finished": [

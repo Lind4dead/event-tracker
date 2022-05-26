@@ -4,7 +4,7 @@ import actiontypes from '../actiontypes'
 const apiCall = async (url, user, dispatch) => {
   try {
     const res = await axios.post(url, user)
-    console.log(res.data)
+    
     if(res.status === 200 || res.status === 201) {
       const _user = {
         name: res.data.user.firstName,
@@ -17,7 +17,7 @@ const apiCall = async (url, user, dispatch) => {
     }
   } catch (err) {
     dispatch(authFailure(err.response.data))
-    console.log(err.response.data)
+    
   }
 }
 

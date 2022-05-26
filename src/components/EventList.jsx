@@ -12,7 +12,7 @@ const EventList = () => {
   const [upcomingEvents, setUpcomingEvents] = useState([])
   const [pastEvents, setPastEvents] = useState([])
 
-  console.log(error)
+ 
 
 
   useEffect(() => {
@@ -50,7 +50,7 @@ const EventList = () => {
       <div className="list-group">
         {loading && <p>Loading...</p>}
         {
-          error && <h6>{error}</h6>
+          error && <h6 className='text-danger'>{error}</h6>
         }
         <div className='mb-2'>
           <h1>Upcoming events</h1>
@@ -63,8 +63,11 @@ const EventList = () => {
           upcomingEvents && upcomingEvents.map(event => <SingleEvent key={event.id} event={event} token={token} />)
         }
         <div className='mt-3 mb-2'>
-  
-          <h1>Past</h1>
+
+        {
+          pastEvents.length >= 1 && <h1>Past</h1>
+        }
+          
         </div>
         {
           pastEvents && pastEvents.map(event => <SingleEvent key={event.id} event={event} token={token} />)

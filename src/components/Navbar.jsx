@@ -25,12 +25,17 @@ const Navbar = () => {
     }
   }
 
-  console.log(events)
+  
   useEffect(() => {
     if(events) {
       let myEvents = events.filter(event => event.userId === jwt_decode(isAuth).sub)
-      const filteredEvents = myEvents.filter(event => event.title.match(searchInput))
-      dispatch(filterEvents(filteredEvents))
+      if(searchInput.trim() !== '') {
+        const filteredEvents = myEvents.filter(event => event.title.toUpperCase().match(searchInput.toUpperCase()))
+        dispatch(filterEvents(filteredEvents))
+      }
+      else {
+        dispatch(filterEvents(false))
+      }
     }
   }, [dispatch, events, searchInput])
 

@@ -121,6 +121,8 @@ const EventTracker = () => {
    
     if (!err.includes(false)) {
       dispatch(addEvent(payload, token))
+      setEvent({ title: '', desc: ''})
+      setDate('')
     }
   }
 

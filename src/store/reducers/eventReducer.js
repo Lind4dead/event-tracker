@@ -21,7 +21,7 @@ const eventReducer = (state = initState, action) => {
       }
 
     case actiontypes().events.setEventsSuccess:
-      console.log(action.payload)
+      
       return {
         ...state,
         loading: false,
@@ -52,7 +52,7 @@ const eventReducer = (state = initState, action) => {
       }
 
     case actiontypes().events.addEventSuccess:
-      console.log(state.events)
+      
       return {
         ...state,
         loading: false,

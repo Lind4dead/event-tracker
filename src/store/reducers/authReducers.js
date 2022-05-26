@@ -21,7 +21,7 @@ const authReducer = (state = initState, action) => {
 
     case actiontypes().auth.authSuccess:
       localStorage.setItem('token', action.payload.token)
-      console.log(action.payload)
+    
       return {
         ...state,
         token: action.payload.token,

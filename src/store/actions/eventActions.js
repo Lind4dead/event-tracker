@@ -39,7 +39,7 @@ export const getEvents = (token) => {
       }
     } catch (err) {
       console.log(err)
-      if(err.response.status == 403) {
+      if(err.response.status === 403) {
         let errMsg = 'You do not have any events registered! Start by adding new events!'
         dispatch(getEventsFailure(errMsg))
       }
@@ -62,7 +62,7 @@ export const getOneEvent = (id, token) => {
         }
       })
       if(res.status === 200) {
-        console.log(res)
+       
         dispatch(getSingleEvent(res.data))
       }
     } catch (err) {
@@ -82,7 +82,7 @@ return async dispatch => {
         'Authorization': `Bearer ${token}`
       }
     })
-    console.log(res)
+    
     if(res.status === 201) {
       dispatch(addEventSuccess(res.data))
     }
@@ -90,16 +90,24 @@ return async dispatch => {
       throw new Error('Could not add event')
     }
   } catch (err) {
-    console.log(err)
+    
     dispatch(addEventFailure(err.message))
   }
 }
 }
 
 export const filterEvents = (events) => {
-  return {
-    type: actiontypes().events.filteredEvents,
-    payload: events
+  if(events) {
+
+    return {
+      type: actiontypes().events.filteredEvents,
+      payload: events
+    }
+  } else if(!events) {
+    return {
+      type: actiontypes().events.filteredEvents,
+      payload: []
+    }
   }
 }
 

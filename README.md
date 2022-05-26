@@ -1,3 +1,10 @@
+
+# För att starta igång allt
+### `npm start` för react-applikationen sedan `npm run dev` för att starta json-server-auth, allt i mappen "event-tracker"
+
+ 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

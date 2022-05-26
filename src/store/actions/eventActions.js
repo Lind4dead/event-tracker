@@ -17,7 +17,7 @@ export const getEvents = (token) => {
           'Authorization': `Bearer ${token}`
         }
       })
-      console.log(res)
+      
       
       if(res.status === 200) {
         res.data.sort((a, b) => {  
@@ -38,7 +38,7 @@ export const getEvents = (token) => {
         }
       }
     } catch (err) {
-      console.log(err)
+      
       if(err.response.status === 403) {
         let errMsg = 'You do not have any events registered! Start by adding new events!'
         dispatch(getEventsFailure(errMsg))

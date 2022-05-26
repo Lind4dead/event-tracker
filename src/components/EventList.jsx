@@ -55,23 +55,23 @@ const EventList = () => {
         <div className='mb-2'>
           <h1>Upcoming events</h1>
   
-        </div>
         {
           !upcomingEvents.length && <h5>No upcoming events registered</h5>
         }
         {
           upcomingEvents && upcomingEvents.map(event => <SingleEvent key={event.id} event={event} token={token} />)
         }
+        </div>
         <div className='mt-3 mb-2'>
 
         {
           pastEvents.length >= 1 && <h1>Past</h1>
         }
           
-        </div>
         {
           pastEvents && pastEvents.map(event => <SingleEvent key={event.id} event={event} token={token} />)
         }
+        </div>
   
       </div>
     )

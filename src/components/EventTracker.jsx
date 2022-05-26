@@ -100,7 +100,6 @@ const EventTracker = () => {
 
   const onSub = (e) => {
     e.preventDefault()
-    console.log(date)
     let err = []
     const payload = {
       title: event.title,
@@ -129,7 +128,7 @@ const EventTracker = () => {
   return (
     <div className='card d-flex justify-content-center align-items-center'>
       <h1 className='d-block py-3'>Event Tracker</h1>
-      <form onSubmit={onSub} ref={form} className='d-flex flex-column gap-3 w-50'>
+      <form onSubmit={onSub} ref={form} className='d-flex flex-column gap-3 w-75'>
         <div className='w-100'>
           <input type="text" name='title' onChange={eventDetails} value={event.title} ref={titleField} placeholder='Event title...' className='form-control' />
           {
@@ -150,7 +149,7 @@ const EventTracker = () => {
         </div>
         <button className='btn btn-info fw-bold'>ADD EVENT</button>
       </form>
-      <div className='w-50 my-5'>
+      <div className='w-75 my-5'>
         {
 
           token ? <EventList /> : <div className='text-center'><h3>Login to begin using the Event Tracker!</h3></div>
